@@ -1,0 +1,100 @@
+{
+  "date": "2023-10-01",
+  "environments": [
+    {
+      "name": "Laboratoire",
+      "status": "En cours",
+      "progress": 70,
+      "completed_tasks": [
+        {
+          "task_id": "task01",
+          "description": "Migration des serveurs de test",
+          "status": "Complété"
+        },
+        {
+          "task_id": "task02",
+          "description": "Configuration des réseaux",
+          "status": "Complété"
+        }
+      ],
+      "pending_tasks": [
+        {
+          "task_id": "task03",
+          "description": "Validation des performances",
+          "status": "En attente"
+        }
+      ],
+      "incidents": [
+        {
+          "incident_id": "incident01",
+          "description": "Problème de connectivité réseau",
+          "status": "Résolu"
+        }
+      ],
+      "rollback_activities": [
+        {
+          "activity_id": "rollback01",
+          "description": "Restauration de la configuration réseau",
+          "status": "Complété"
+        }
+      ]
+    },
+    {
+      "name": "Développement",
+      "status": "En cours",
+      "progress": 50,
+      "completed_tasks": [
+        {
+          "task_id": "task04",
+          "description": "Migration des bases de données",
+          "status": "Complété"
+        }
+      ],
+      "pending_tasks": [
+        {
+          "task_id": "task05",
+          "description": "Migration des applications",
+          "status": "En attente"
+        }
+      ],
+      "incidents": [
+        {
+          "incident_id": "incident02",
+          "description": "Erreur de déploiement",
+          "status": "En cours"
+        }
+      ],
+      "rollback_activities": []
+    },
+    {
+      "name": "Acceptation",
+      "status": "Planifié",
+      "progress": 0,
+      "completed_tasks": [],
+      "pending_tasks": [
+        {
+          "task_id": "task06",
+          "description": "Migration des serveurs d'acceptation",
+          "status": "Planifié"
+        }
+      ],
+      "incidents": [],
+      "rollback_activities": []
+    },
+    {
+      "name": "Production",
+      "status": "Planifié",
+      "progress": 0,
+      "completed_tasks": [],
+      "pending_tasks": [
+        {
+          "task_id": "task07",
+          "description": "Migration des serveurs de production",
+          "status": "Planifié"
+        }
+      ],
+      "incidents": [],
+      "rollback_activities": []
+    }
+  ]
+}
